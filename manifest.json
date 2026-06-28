@@ -1,0 +1,32 @@
+{
+  "manifestVersion": 1,
+  "id": "terminal",
+  "name": "Terminal",
+  "version": "0.1.0",
+  "author": {
+    "github": "abr-ac",
+    "name": "Abracadabra"
+  },
+  "license": "MIT",
+  "description": "Shared collaborative terminal page type — a live shell hosted on a real machine and synced to everyone with access to the document.",
+  "repository": "github:abr-ac/abracadabra-plugin-terminal",
+  "minAbracadabraVersion": "^2.27.0",
+  "entry": "dist/plugin.js",
+  "integrity": "sha256-6b5eabe9f1b51f1581252cc9856008e169674fcf979702042faa1e7ab2b6a54d",
+  "pricing": "free",
+  "categories": ["terminal", "devtools"],
+  "capabilities": {
+    "required": [
+      "page-type:terminal",
+      "doc-read",
+      "doc-write",
+      "awareness",
+      "process:exec"
+    ]
+  },
+  "contributes": {
+    "pageTypes": ["terminal"],
+    "serverRunners": ["terminal"],
+    "awarenessFields": ["tty", "termhost", "terminalHost"]
+  }
+}

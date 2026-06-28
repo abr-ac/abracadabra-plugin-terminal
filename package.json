@@ -1,0 +1,33 @@
+{
+  "name": "abracadabra-plugin-terminal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared collaborative terminal page type for CouShell — xterm.js renderer + a process-capable serverRunner that bridges a PTY over the hybrid transport (awareness output + doc input/scrollback).",
+  "scripts": {
+    "build": "vite build && vite build --config vite.config.server.ts",
+    "build:client": "vite build",
+    "build:server": "vite build --config vite.config.server.ts",
+    "typecheck": "vue-tsc --noEmit",
+    "pack": "abra-plugin pack"
+  },
+  "dependencies": {
+    "@xterm/xterm": "^5.5.0",
+    "@xterm/addon-fit": "^0.10.0"
+  },
+  "devDependencies": {
+    "@abraca/plugin": "^2.27.0",
+    "@abraca/dabra": "^2.27.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.0.0",
+    "vite-plugin-css-injected-by-js": "^3.5.0",
+    "vue": "^3.5.0",
+    "vue-tsc": "^2.0.0",
+    "yjs": "^13.6.30"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "yjs": "^13.6.0"
+  }
+}

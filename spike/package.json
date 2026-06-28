@@ -1,0 +1,15 @@
+{
+  "name": "abracadabra-terminal-spike",
+  "private": true,
+  "type": "module",
+  "description": "THROWAWAY Phase-1 de-risk spike: prove CRDT-as-TTY transport for the Terminal plugin. Not the real package.",
+  "scripts": {
+    "bench": "node bench.mjs"
+  },
+  "dependencies": {
+    "@abraca/dabra": "2.27.0",
+    "@noble/ed25519": "^3.1.0",
+    "@noble/hashes": "^2.2.0",
+    "yjs": "13.6.30"
+  }
+}
