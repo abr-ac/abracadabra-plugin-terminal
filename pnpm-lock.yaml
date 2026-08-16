@@ -38,11 +38,11 @@ importers:
         version: 5.5.0
     devDependencies:
       '@abraca/dabra':
-        specifier: ^2.86.0
-        version: 2.86.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)
+        specifier: ^2.87.0
+        version: 2.87.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)
       '@abraca/plugin':
-        specifier: ^2.86.0
-        version: 2.86.0
+        specifier: ^2.87.0
+        version: 2.87.0
       '@vitejs/plugin-vue':
         specifier: ^5.0.0
         version: 5.2.4(vite@5.4.21)(vue@3.5.34(typescript@5.9.3))
@@ -67,14 +67,14 @@ importers:
 
 packages:
 
-  '@abraca/dabra@2.86.0':
-    resolution: {integrity: sha512-JCpD7LPoEG5HrGohc7efbQGJFfN1DUdYwVIApe0viBq68RtsKmx58j0DVn+myzY+R+lcUZlH0+qIe62s+FBoPw==}
+  '@abraca/dabra@2.87.0':
+    resolution: {integrity: sha512-gE5YLAq6VAwFBQPQmvhrPamiLTu9kluVj0hLACKr149UuAigrIoInzWMV63JBxsgddAE0wFOzlULexeO9fBgjQ==}
     peerDependencies:
       y-protocols: 1.0.7
       yjs: 13.6.30
 
-  '@abraca/plugin@2.86.0':
-    resolution: {integrity: sha512-24diPG2iiLxH7pQha9me2i3BGncZcq3khiQ355Tbu79IhX9QF2ME4oKeYVROwqd7DskIr7NE/NTzzM8rOQ0IMg==}
+  '@abraca/plugin@2.87.0':
+    resolution: {integrity: sha512-SKz4/3EIz4vxU+xgDVbB7zc/SfXgbnjg0rmF8Ap9DbAZKFG7PhYmtN9jUQTRiCWrQFD++3J7MJaXzxJ4F0dLBA==}
 
   '@babel/helper-string-parser@7.29.7':
     resolution: {integrity: sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==}
@@ -637,7 +637,7 @@ packages:
 
 snapshots:
 
-  '@abraca/dabra@2.86.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)':
+  '@abraca/dabra@2.87.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)':
     dependencies:
       '@lifeomic/attempt': 3.1.0
       '@noble/curves': 2.2.0
@@ -652,7 +652,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@abraca/plugin@2.86.0': {}
+  '@abraca/plugin@2.87.0': {}
 
   '@babel/helper-string-parser@7.29.7': {}
 
