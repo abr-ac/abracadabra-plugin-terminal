@@ -16,8 +16,8 @@
     "@xterm/xterm": "^5.5.0"
   },
   "devDependencies": {
-    "@abraca/dabra": "^2.91.0",
-    "@abraca/plugin": "^2.91.0",
+    "@abraca/dabra": "^2.92.0",
+    "@abraca/plugin": "^2.92.0",
     "@vitejs/plugin-vue": "^5.0.0",
     "typescript": "^5.6.0",
     "vite": "^5.0.0",
@@ -51,7 +51,12 @@
       "prosemirror-view": "1.41.8",
       "vue": "3.5.34",
       "y-protocols": "1.0.7",
-      "yjs": "13.6.30"
+      "yjs": "13.6.30",
+      "prosemirror-changeset": "2.4.1",
+      "prosemirror-dropcursor": "1.8.2",
+      "prosemirror-schema-list": "1.5.1",
+      "prosemirror-tables": "1.8.5",
+      "@tiptap/extensions": "3.23.5"
     }
   }
 }

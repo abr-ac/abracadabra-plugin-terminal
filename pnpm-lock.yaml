@@ -25,6 +25,11 @@ overrides:
   vue: 3.5.34
   y-protocols: 1.0.7
   yjs: 13.6.30
+  prosemirror-changeset: 2.4.1
+  prosemirror-dropcursor: 1.8.2
+  prosemirror-schema-list: 1.5.1
+  prosemirror-tables: 1.8.5
+  '@tiptap/extensions': 3.23.5
 
 importers:
 
@@ -38,11 +43,11 @@ importers:
         version: 5.5.0
     devDependencies:
       '@abraca/dabra':
-        specifier: ^2.91.0
-        version: 2.91.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)
+        specifier: ^2.92.0
+        version: 2.92.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)
       '@abraca/plugin':
-        specifier: ^2.91.0
-        version: 2.91.0
+        specifier: ^2.92.0
+        version: 2.92.0
       '@vitejs/plugin-vue':
         specifier: ^5.0.0
         version: 5.2.4(vite@5.4.21)(vue@3.5.34(typescript@5.9.3))
@@ -67,14 +72,14 @@ importers:
 
 packages:
 
-  '@abraca/dabra@2.91.0':
-    resolution: {integrity: sha512-XfRlHuTrNNM9o6bCPNs2kZDgyCyKEgzBJIflBTAjSVAhA5MhsmLhX64u5CAn/I00VmVuFgZdn1nMakEwNlxyLw==}
+  '@abraca/dabra@2.92.0':
+    resolution: {integrity: sha512-pgOotJ0i78QWGIwgWH85fUgCj7+wiulFLNYVmcc63Z6BDgD9VHHZu0r+VLWFALQXPP0OC7b1Gf18nwglmMawqQ==}
     peerDependencies:
       y-protocols: 1.0.7
       yjs: 13.6.30
 
-  '@abraca/plugin@2.91.0':
-    resolution: {integrity: sha512-OKBcgbXy9zA6YaEmDgRf4XelFGgWRerTjp9omxGFKCAYvFJbr345xadB23FPaGPK6v3YTufIOxDOe1nyvK4JPQ==}
+  '@abraca/plugin@2.92.0':
+    resolution: {integrity: sha512-F7MAJ/tDQUIh6RN8oFlGs8acBRV9KQEaFY6TabB+U2cyeQv46uGw5Se+L4lHNnn5u1uuNFSzKd8Hb8XzG5ogNg==}
 
   '@babel/helper-string-parser@7.29.7':
     resolution: {integrity: sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==}
@@ -637,7 +642,7 @@ packages:
 
 snapshots:
 
-  '@abraca/dabra@2.91.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)':
+  '@abraca/dabra@2.92.0(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)':
     dependencies:
       '@lifeomic/attempt': 3.1.0
       '@noble/curves': 2.2.0
@@ -652,7 +657,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@abraca/plugin@2.91.0': {}
+  '@abraca/plugin@2.92.0': {}
 
   '@babel/helper-string-parser@7.29.7': {}
 
